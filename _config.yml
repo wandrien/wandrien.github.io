@@ -1,0 +1,4 @@
+markdown: kramdown
+theme: jekyll-theme-hacker
+title: Вадим Ушаков — персональный блог
+permalink: pretty
