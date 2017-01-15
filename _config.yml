@@ -5,3 +5,10 @@ permalink: pretty
 gems:
   - jekyll-feed
   - jekyll-sitemap
+
+defaults:
+  -
+    scope:
+      path: ""
+    values:
+      layout: "default"
