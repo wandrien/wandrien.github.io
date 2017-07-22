@@ -15,10 +15,6 @@ header h1 {
     display: none;
 }
 
-div.container {
-    max-width: 80%;
-}
-
 #main_content {
 	h1 { margin-top: 2.0em; margin-bottom: 1.0em; }
 	h2 { margin-top: 1.5em; margin-bottom: 1.0em; }
@@ -28,7 +24,6 @@ div.container {
 
 	h1 { border-bottom: 1px dashed rgba(181, 232, 83, 1.0); }
 
-	p  { text-align: justify; }
 	b, strong { color: #b5e853; }
 }
 
@@ -58,3 +53,43 @@ footer {
 .break-all {
     word-break: break-all;
 }
+
+
+header h1 { font-size: 20px; }
+@media (min-width:  900px) { header h1 { font-size: 25px; } }
+@media (min-width: 1100px) { header h1 { font-size: 30px; } }
+
+#main_content p { text-align: left; }
+@media (min-width: 600px) {
+    #main_content p { text-align: justify; }
+}
+
+ul { padding-left: 30px; }
+ul li::before { margin-left: -27px; margin-right: 11px; }
+@media (min-width: 600px) {
+    ul { padding-left: 40px; }
+    ul li::before { margin-left: -37px; margin-right: 21px; }
+}
+
+div.container { max-width: 98%; }
+@media (min-width: 500px) { div.container { max-width: 98%; } }
+@media (min-width: 520px) { div.container { max-width: 97%; } }
+@media (min-width: 540px) { div.container { max-width: 96%; } }
+@media (min-width: 560px) { div.container { max-width: 95%; } }
+@media (min-width: 580px) { div.container { max-width: 94%; } }
+@media (min-width: 600px) { div.container { max-width: 93%; } }
+@media (min-width: 620px) { div.container { max-width: 92%; } }
+@media (min-width: 640px) { div.container { max-width: 91%; } }
+@media (min-width: 660px) { div.container { max-width: 90%; } }
+@media (min-width: 680px) { div.container { max-width: 89%; } }
+@media (min-width: 700px) { div.container { max-width: 88%; } }
+@media (min-width: 720px) { div.container { max-width: 87%; } }
+@media (min-width: 740px) { div.container { max-width: 86%; } }
+@media (min-width: 760px) { div.container { max-width: 85%; } }
+@media (min-width: 780px) { div.container { max-width: 84%; } }
+@media (min-width: 800px) { div.container { max-width: 83%; } }
+@media (min-width: 820px) { div.container { max-width: 82%; } }
+@media (min-width: 840px) { div.container { max-width: 81%; } }
+@media (min-width: 860px) { div.container { max-width: 80%; } }
+@media (min-width: 880px) { div.container { max-width: 79%; } }
+@media (min-width: 900px) { div.container { max-width: 78%; } }
