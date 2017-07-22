@@ -31,3 +31,26 @@ div.container {
 	p  { text-align: justify; }
 	b, strong { color: #b5e853; }
 }
+
+footer {
+  background: rgba(0, 0, 0, 0.1);
+  width: 100%;
+  border-top: 1px dashed #b5e853;
+  padding: 20px 0;
+  margin-top: 40px;
+}
+
+#footer-menu > * {
+    display: inline-block;
+    line-height: 31px;
+    vertical-align: top;
+}
+
+#footer-menu #copyright {
+    opacity: 0.5;
+}
+
+#footer-menu #liveintenet-counter {
+    max-height: 31px;
+    opacity: 0.5;
+}
