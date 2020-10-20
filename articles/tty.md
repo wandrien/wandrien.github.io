@@ -334,3 +334,4 @@ test -n "$url" && elinks "$url"
 Оставить комментарий к статье можно:
 
 * [в моём блоге](https://wandrien.blogspot.com/2020/10/tty.html)
+* [на linux.org.ru](https://www.linux.org.ru/forum/talks/15957219)
