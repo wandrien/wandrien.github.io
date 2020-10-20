@@ -71,8 +71,12 @@ ul li::before { margin-left: -27px; margin-right: 11px; }
     ul li::before { margin-left: -37px; margin-right: 21px; }
 }
 
-code {
-    color: #b5e853;
+
+code.highlighter-rouge {
+    background: none !important;
+    border: 1px solid rgba(255,255,255,0.10)  !important;
+    color: #aa759f !important;
+    border-radius: 2px !important;
 }
 
 div.container { max-width: 98%; }
