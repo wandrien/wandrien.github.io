@@ -78,7 +78,7 @@ title:  "Устройство подсистемы TTY"
 
 7. `TERMIOS` — блок управления режимами работы TTY.
 
-Следует заметить, что такое разделение на блоки **не** соответствует структуре кода на файлы, модули или классы в какой-либо реальной операционной системы. Также подобного разделения в явном виде вы не найдёте в **POSIX**. Выделение этих функциональных блоков выполнено для удобства изложения.
+Следует заметить, что такое разделение на блоки **не** соответствует делению на файлы, модули или классы в какой-либо реальной операционной системы. Также подобного разделения в явном виде вы не найдёте в **POSIX**. Выделение этих функциональных блоков выполнено для удобства изложения.
 
 * * *
 
@@ -361,9 +361,9 @@ test -n "$url" && elinks "$url"
 
 ## Ссылки:
 
-1. [https://pubs.opengroup.org/onlinepubs/009695399/basedefs/xbd_chap11.html#tag_11](https://pubs.opengroup.org/onlinepubs/009695399/basedefs/xbd_chap11.html#tag_11)
-2. [https://www.gnu.org/software/libc/manual/html_node/Low_002dLevel-Terminal-Interface.html](https://www.gnu.org/software/libc/manual/html_node/Low_002dLevel-Terminal-Interface.html)
-3. [https://man.netbsd.org/termios.4](https://man.netbsd.org/termios.4)
+1. [Single UNIX Specification, version 3](https://pubs.opengroup.org/onlinepubs/009695399/basedefs/xbd_chap11.html#tag_11)
+2. [GNU Libc Manual](https://www.gnu.org/software/libc/manual/html_node/Low_002dLevel-Terminal-Interface.html)
+3. [NetBSD termios(4)](https://man.netbsd.org/termios.4)
 
 * * *
 
