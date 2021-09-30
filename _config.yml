@@ -5,6 +5,10 @@ permalink: pretty
 gems:
   - jekyll-feed
   - jekyll-sitemap
+  - jekyll-theme-hacker
+exclude:
+  - Gemfile
+  - Gemfile.lock
 
 defaults:
   -
