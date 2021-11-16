@@ -1,7 +1,7 @@
 markdown: kramdown
 theme: jekyll-theme-hacker
 title: Вадим Ушаков — персональный сайт
-permalink: pretty
+permalink: /:categories/:year/:title/
 gems:
   - jekyll-feed
   - jekyll-sitemap
