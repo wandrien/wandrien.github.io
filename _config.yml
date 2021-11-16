@@ -1,6 +1,6 @@
 markdown: kramdown
 theme: jekyll-theme-hacker
-title: Вадим Ушаков — персональный сайт
+title: wandien's personal home page
 permalink: /:categories/:year/:title/
 gems:
   - jekyll-feed
