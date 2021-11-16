@@ -197,7 +197,7 @@ EUPL. Статьи на Хабре: [\[1\]](https://habrahabr.ru/post/318916/), 
 
 [vdev](https://github.com/PeteGozz/vdev) — «Представлен новый проект vdev (virtual device filesystem), нацеленный на разработку менеджера файлов-устройств, выступающего в роли кросс-платформенной и не зависящей от систем инициализации альтернативы udev и devfs. Работа vdev изначально тестируется не только в Linux, но и во FreeBSD и OpenBSD.»
 
-# Инит и/или супервизор
+## Инит и/или супервизор
 
 [cinit](http://www.nico.schottelius.org/software/cinit/)
 
@@ -216,6 +216,10 @@ EUPL. Статьи на Хабре: [\[1\]](https://habrahabr.ru/post/318916/), 
 [Filenames and Pathnames in Shell: How to do it Correctly](http://www.dwheeler.com/essays/filenames-in-shell.html)
 
 [POSIX shell tricks](http://www.etalabs.net/sh_tricks.html)
+
+## Библиотеки алгоритмов, системные библиотеки
+
+[plibsys](https://www.linux.org.ru/news/opensource/13643453)
 
 ## Библиотеки для работы с изображениями
 
@@ -259,11 +263,55 @@ EUPL. Статьи на Хабре: [\[1\]](https://habrahabr.ru/post/318916/), 
 
 [Daniel J. Bernstein](http://cr.yp.to/djb.html)
 
-## Философия Downgrade
+[Michael Cardell Widerkrantz](https://hack.org/mc/)
+
+## Свободный софт для проприетарных OC (DOS, Windows)
+
+[BTTR Software](https://www.bttr-software.de/) — свободный софт для DOS.
+
+## Ретрокомпьютинг, Downgrade
 
 [fdd5-25.net](http://www.fdd5-25.net/) — «С ноября 2000 года данный проект рассказывает о нашей прикладной философии жизни - Довнгрейд. Сайт посвящен необыкновеннымм техническим решениям на базе морально устаревших технологий (x86, DOS, Win32, MSX и т.д), а так же контркультуре альтернативной обществу массового потребления. Наш ресурс содержит более 700 архивов софта, документов, тысячи тематических статей и материалов.»
 
+[Железные призраки прошлого](http://sannata.org/)
+
+[old-dos.ru](http://old-dos.ru/) и [old-dos.ru/wiki](http://old-dos.ru/wiki/)
+
 [old-hard.ru](http://www.old-hard.ru/)
+
+[ПК-ностальгия](http://sht-rajvo.narod.ru/index.htm)
+
+[linux-distros.com](https://www.linux-distros.com/)
+
+[WinWorld](https://winworldpc.com/)
+
+[ArchiveOS](https://archiveos.org/)
+
+[nostalgy.net.ru](http://nostalgy.net.ru/)
+
+[GUI Gallery at toastytech.com](http://toastytech.com/guis/index.html)
+
+## 8 bit
+
+[z80.info](http://z80.info/index.html) — огромное количество информации по программированию под Z80.
+
+[z80.eu](http://www.z80.eu/index.html) — компиляторы под Z80 и разная информация.
+
+[z88dk.org](https://z88dk.org/) — SDK под 100 разных машин/ОС/архитектур семейства Z80.
+
+[ZX Spectrum Next](https://www.specnext.com/about/) — клон Спектрума на современной элементной базе.
+
+[Библиотека электронных газет и журналов для ZX Spectrum](http://zxpress.ru/)
+
+[retroprogramming.com](http://www.retroprogramming.com/) — блог о программировании под ZX Spectrum.
+
+[Fuse - the Free Unix Spectrum Emulator](http://fuse-emulator.sourceforge.net/fuse.php) — эмулятор ZX Spectrum и частично совместимых с ним клонов для Linux, BSD, macOS, Haiku, AmigaOS, Windows, Android...
+
+[ZEsarUX - ZX Second-Emulator And Released for UniX](https://github.com/chernandezba/zesarux) — еще один.
+
+## Электроника, радиотехника
+
+[Виртуальный музей и справочник «Отечественная Радиотехника 20 Века»](http://www.rw6ase.narod.ru/)
 
 ## Разное
 
