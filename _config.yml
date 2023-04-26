@@ -2,10 +2,9 @@ markdown: kramdown
 theme: jekyll-theme-hacker
 title: wandien's personal home page
 permalink: /:categories/:year/:title/
-gems:
+plugins:
   - jekyll-feed
   - jekyll-sitemap
-  - jekyll-theme-hacker
 exclude:
   - Gemfile
   - Gemfile.lock
