@@ -27,6 +27,16 @@
     </header>
 
     <div class="container">
+
+      {% if page.tags %}
+      <section class="tags">
+        Метки:
+        {% for tag in page.tags %}
+           [<a href="/tag/{{ tag }}/">{{ tag }}</a>]
+        {% endfor %}
+      </section>
+      {% endif %}
+
       <section id="main_content">
         {{ content }}
       </section>

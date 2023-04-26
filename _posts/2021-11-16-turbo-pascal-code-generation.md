@@ -1,6 +1,7 @@
 ---
 title: Статья о кодогенерации в Turbo Pascal 3
 category: prog-langs
+tags: dos pascal
 ---
 
 Разбор кода, который генерирует Turbo Pascal 3.01A: [https://www.pcengines.ch/tp3.htm](https://www.pcengines.ch/tp3.htm).
