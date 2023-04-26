@@ -1,6 +1,6 @@
 ---
 title: Запуск MSIE 5 на Solaris 7 и кое-что о технологиях Microsoft
-category: prog-langs
+category: misc
 ---
 
 На ютуб-канале [NCommander](https://www.youtube.com/channel/UCWyrVfwRL-2DOkzsqrbjo5Q) появилось видео с запуском [Internet Explorer 5](https://www.youtube.com/watch?v=_AoyQeUzbEU), портированного на Solaris.
