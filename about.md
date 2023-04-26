@@ -4,7 +4,7 @@ title:  "О сайте и обо мне"
 
 ### О сайте
 
-Привет! Здесь я буду публиковать свои статьи, заметки, обзоры, полезные советы и наработки в сфере IT.
+Привет! Здесь я буду публиковать свои статьи, заметки, обзоры, полезные советы и наработки в сфере IT. В основном они будут касаться ОС семейств Linux и BSD.
 
 
 ### Обо мне
@@ -19,7 +19,7 @@ title:  "О сайте и обо мне"
   <li>Альтернативные операционные системы и перспективные технологии</li>
   <li>Свободное программное обеспечение</li>
   <li>Радиотехника, электроника</li>
-  <li>Изучение иностранных языков, лингвистика.</li>
+  <li>Изучение иностранных языков, лингвистика</li>
 </ul>
 
 Если попытаться кратко сформулировать мои принципы как разработчика ПО, то получится следующее:
@@ -51,7 +51,7 @@ title:  "О сайте и обо мне"
 ### Контактные данные
 
 <ul>
-  <li><a href="https://github.com/geekless">github.com/geekless</a></li>
-  <li><a href="mailto:igeekless@gmail.com">igeekless@gmail.com</a></li>
+  <li><a href="https://github.com/wandrien">github.com/wandrien</a></li>
+  <li><a href="mailto:wandrien.dev@gmail.com">wandrien.dev@gmail.com</a></li>
   <li><a href="https://www.linux.org.ru/people/wandrien/profile"><span class='break-all'>www.linux.org.ru/people/wandrien/profile</span></a></li>
 </ul>
