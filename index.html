@@ -2,13 +2,49 @@
 title: wandien's personal home page
 ---
 
-<h3>Разделы сайта</h3>
+<h3>Оглавление</h3>
 
 <ul>
-  <li><a href="/projects/">Проекты</a></li>
-  <li><a href="/articles/">Статьи</a></li>
-  <li><a href="/links/">Ссылки</a></li>
   <li><a href="/about/">О сайте</a></li>
+  <li><a href="/projects/">Проекты</a> — программы, которые я разрабатываю</li>
+  <li><a href="/articles/">Статьи</a></li>
+</ul>
+
+<hr>
+
+<ul>
+  <li><a href="/user-notes/">user-notes</a> — мои заметки как пользователя</li>
+  <li><a href="/developer-notes/">developer-notes</a> — мои заметки как разработчика</li>
+  <li><a href="/contributions/">contributions</a> — мои патчи, багфиксы и т.п. направленные в различные проекты</li>
+</ul>
+
+<hr>
+
+<ul>
+  <li><a href="/stuff/">stuff</a> — ссылки на материалы третьих лиц (статьи, программы и т.д.)</li>
+  <li><a href="/links/">links</a> — много различных ссылок, одной страницей</li>
+</ul>
+
+<h3>Облако тэгов</h3>
+
+<p>Также вы можете искать нужный контент на сайте при помощи тэгов:</p>
+
+{% assign all_tags = '' | split: ',' %}
+
+{% for post in site.posts %}
+  {% for tags in post.tags %}
+    {% for tag in tags %}
+      {% assign all_tags = all_tags | push: tag %}
+    {% endfor %}
+  {% endfor %}
+{% endfor %}
+
+{% assign all_tags = all_tags | sort | uniq %}
+
+<ul class="tag-cloud">
+  {% for tag in all_tags %}
+    <li><a href="/{{ site.tag_dir }}/{{ tag | uri_escape }}"><span>[</span>{{ tag }}: {{ site.tags[tag] | size }}<span>]</span></a></li>
+  {% endfor %}
 </ul>
 
 <h3>Обновления и новости</h3>
@@ -17,12 +53,17 @@ title: wandien's personal home page
     {% for post in site.posts %}
 
         {% if page.inline == true %}
-            <li class='inlined'><span>{{ post.date | date: "%Y.%m.%d" }}</span> — <span class='inlined-post'>{{ post.body }}</a></li>
+            <li class='inlined'>
+                <span>{{ post.date | date: "%Y.%m.%d" }}</span> <span class='inlined-post'>{{ post.body }}</a></li>
         {% else %}
-            <li><span>{{ post.date | date: "%Y.%m.%d" }}</span> — <a href="{{ post.url }}">{{ post.title }}</a></li>
+            <li><span>{{ post.date | date: "%Y.%m.%d" }}</span>
+                <span class='post-category'><a href="/{{post.category | uri_escape}}">[{{post.category}}]</a></span>
+                <a href="{{ post.url }}">{{ post.title }}</a>
+            </li>
         {% endif %}
 
     {% endfor %}
 </ul>
 
 <p><img src='/assets/rss-2-128.png' style='display: inline; vertical-align: middle; width: 1em; height: 1em'> <a href='/feed.xml'>Подписаться на RSS</a></p>
+<!-- -%- indent-width: 2; use-tabs: no; -%- -->

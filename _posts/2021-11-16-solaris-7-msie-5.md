@@ -1,6 +1,6 @@
 ---
 title: Запуск MSIE 5 на Solaris 7 и кое-что о технологиях Microsoft
-category: misc
+category: stuff
 tags: msie solaris windows microsoft
 ---
 

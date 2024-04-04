@@ -1,9 +1,9 @@
 ---
 layout: default
-title: grep
+title: netbsd
 ---
 
-{% assign tag = "grep" %}
+{% assign tag = "netbsd" %}
 {% assign tagged_posts = "" | split: "" %}
 {% for post in site.posts %}
   {% if post.tags contains tag %}

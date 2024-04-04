@@ -1,9 +1,9 @@
 ---
 layout: default
-title: grep
+title: __TAG__
 ---
 
-{% assign tag = "grep" %}
+{% assign tag = "__TAG__" %}
 {% assign tagged_posts = "" | split: "" %}
 {% for post in site.posts %}
   {% if post.tags contains tag %}

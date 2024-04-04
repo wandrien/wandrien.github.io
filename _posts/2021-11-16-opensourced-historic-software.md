@@ -1,6 +1,6 @@
 ---
 title:  "Исторический софт, который был открыт под свободными лицензиями"
-category: misc
+category: stuff
 tags: operating-systems dos solaris
 ---
 

@@ -1,9 +1,9 @@
 ---
 layout: default
-title: grep
+title: programming-languages
 ---
 
-{% assign tag = "grep" %}
+{% assign tag = "programming-languages" %}
 {% assign tagged_posts = "" | split: "" %}
 {% for post in site.posts %}
   {% if post.tags contains tag %}

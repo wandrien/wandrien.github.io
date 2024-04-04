@@ -1,0 +1,20 @@
+---
+title: tag-list
+layout: hidden
+---
+
+{% assign all_categories = '' | split: ',' %}
+
+{% for post in site.posts %}
+  {% assign all_categories = all_categories | push: post.category %}
+{% endfor %}
+
+{% assign all_categories = all_categories | sort | uniq %}
+
+<ul>
+  {% for category in all_categories %}
+    <li>CATEGORY:[{{ category }}]</li>
+  {% endfor %}
+</ul>
+
+<!-- -%- indent-width: 2; use-tabs: no; -%- -->

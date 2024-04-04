@@ -1,0 +1,24 @@
+---
+title: tag-list
+layout: hidden
+---
+
+{% assign all_tags = '' | split: ',' %}
+
+{% for post in site.posts %}
+  {% for tags in post.tags %}
+    {% for tag in tags %}
+      {% assign all_tags = all_tags | push: tag %}
+    {% endfor %}
+  {% endfor %}
+{% endfor %}
+
+{% assign all_tags = all_tags | sort | uniq %}
+
+<ul>
+  {% for tag in all_tags %}
+    <li>TAG:[{{ tag }}]</li>
+  {% endfor %}
+</ul>
+
+<!-- -%- indent-width: 2; use-tabs: no; -%- -->

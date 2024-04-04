@@ -1,6 +1,6 @@
 ---
 title: "BUGFIX: NetBSD: Использование корректной firmware для Intel Centrino Wireless-N 130"
-category: my-contributions
+category: contributions
 tags: netbsd
 ---
 

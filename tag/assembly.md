@@ -1,9 +1,9 @@
 ---
 layout: default
-title: grep
+title: assembly
 ---
 
-{% assign tag = "grep" %}
+{% assign tag = "assembly" %}
 {% assign tagged_posts = "" | split: "" %}
 {% for post in site.posts %}
   {% if post.tags contains tag %}

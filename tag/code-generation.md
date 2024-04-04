@@ -1,9 +1,9 @@
 ---
 layout: default
-title: grep
+title: code-generation
 ---
 
-{% assign tag = "grep" %}
+{% assign tag = "code-generation" %}
 {% assign tagged_posts = "" | split: "" %}
 {% for post in site.posts %}
   {% if post.tags contains tag %}
