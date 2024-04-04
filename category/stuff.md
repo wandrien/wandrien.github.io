@@ -1,7 +1,7 @@
 ---
 layout: default
 title: stuff
-permalink: stuff
+permalink: stuff/
 ---
 
 {% assign category = "stuff" %}

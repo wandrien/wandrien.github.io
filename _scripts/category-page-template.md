@@ -1,7 +1,7 @@
 ---
 layout: default
 title: __CATEGORY__
-permalink: __CATEGORY__
+permalink: __CATEGORY__/
 ---
 
 {% assign category = "__CATEGORY__" %}

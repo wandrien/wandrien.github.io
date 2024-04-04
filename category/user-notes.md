@@ -1,7 +1,7 @@
 ---
 layout: default
 title: user-notes
-permalink: user-notes
+permalink: user-notes/
 ---
 
 {% assign category = "user-notes" %}

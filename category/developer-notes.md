@@ -1,7 +1,7 @@
 ---
 layout: default
 title: developer-notes
-permalink: developer-notes
+permalink: developer-notes/
 ---
 
 {% assign category = "developer-notes" %}

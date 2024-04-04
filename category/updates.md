@@ -1,7 +1,7 @@
 ---
 layout: default
 title: updates
-permalink: updates
+permalink: updates/
 ---
 
 {% assign category = "updates" %}
