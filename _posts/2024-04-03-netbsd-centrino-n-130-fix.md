@@ -1,7 +1,7 @@
 ---
 title: "BUGFIX: NetBSD: Использование корректной firmware для Intel Centrino Wireless-N 130"
 category: contributions
-tags: netbsd
+tags: netbsd bsd operating-systems hardware
 ---
 
 Модель модуля WiFi: `Intel Corporation Centrino Wireless-N 130 (rev 34)`. (`8086:0896`)
