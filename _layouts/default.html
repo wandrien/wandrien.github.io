@@ -28,18 +28,31 @@
 
     <div class="container">
 
-      {% if page.tags %}
-      <section class="tags">
-        Метки:
-        {% for tag in page.tags %}
-           [<a href="/tag/{{ tag }}/">{{ tag }}</a>]
-        {% endfor %}
+      <section class="metadata">
+        {% if page.tags or page.category %}
+        <span class="tags">
+          {% if page.category %}
+            [<a href="/{{ page.category | url_encode }}/">{{ page.category }}</a>]
+          {% endif %}
+          {% for tag in page.tags %}
+             [<a href="/tag/{{ tag }}/">{{ tag }}</a>]
+          {% endfor %}
+        </span>
+        {% endif %}
       </section>
-      {% endif %}
 
       <section id="main_content">
         {{ content }}
       </section>
+
+      <section class="metadata">
+        {% if page.date %}
+        <span class="date">
+          {{ page.date | date: "%Y.%m.%d" }}
+        </span>
+        {% endif %}
+      </section>
+
     </div>
 
     {% if site.google_analytics %}
@@ -78,3 +91,4 @@
 
   </body>
 </html>
+<!-- -%- indent-width: 2; use-tabs: no; -%- -->

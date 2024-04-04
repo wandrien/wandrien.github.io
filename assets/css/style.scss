@@ -71,7 +71,15 @@ ul li::before { margin-left: -27px; margin-right: 11px; }
     ul li::before { margin-left: -37px; margin-right: 21px; }
 }
 
-.tags { font-size: 90%; opacity: 0.7;}
+.metadata {
+    font-size: 90%; opacity: 0.7;
+}
+.metadata > * {
+    display: block;
+}
+.metadata .date {
+    text-align: right;
+}
 
 code.highlighter-rouge {
     background: none !important;
