@@ -51,7 +51,7 @@ title: wandien's personal home page
 <h3>Обновления и новости</h3>
 
 <ul class="posts">
-    {% for post in site.posts %}
+    {% for post in site.posts limit:20 %}
 
         {% if page.inline == true %}
             <li class='inlined'>
@@ -65,6 +65,8 @@ title: wandien's personal home page
 
     {% endfor %}
 </ul>
+
+<p><a href='/posts/'>Более старые новости</a></p>
 
 <p><img src='/assets/rss-2-128.png' style='display: inline; vertical-align: middle; width: 1em; height: 1em'> <a href='/feed.xml'>Подписаться на RSS</a></p>
 <!-- -%- indent-width: 2; use-tabs: no; -%- -->
