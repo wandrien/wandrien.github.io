@@ -132,6 +132,12 @@ div.container { max-width: 98%; }
     text-decoration: none;
 }
 
+.posts .year {
+    padding-top: 1.0em;
+    padding-bottom: 1.0em;
+    opacity: 0.7;
+}
+
 @media (max-width: 899px) {
     .posts .post-category {
         font-size: 80%;

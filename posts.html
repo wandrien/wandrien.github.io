@@ -2,22 +2,29 @@
 title: Список постов
 ---
 
-<p><img src='/assets/rss-2-128.png' style='display: inline; vertical-align: middle; width: 1em; height: 1em'> <a href='/feed.xml'>Подписаться на RSS</a></p>
-
 <ul class="posts">
-    {% for post in site.posts %}
+  {% assign prev_year = "" %}
+  {% for post in site.posts %}
 
-        {% if page.inline == true %}
-            <li class='inlined'>
-                <span>{{ post.date | date: "%Y.%m.%d" }}</span> <span class='inlined-post'>{{ post.body }}</a></li>
-        {% else %}
-            <li><span>{{ post.date | date: "%Y.%m.%d" }}</span>
-                <span class='post-category'><a href="/{{post.category | uri_escape}}">[{{post.category}}]</a></span>
-                <a href="{{ post.url }}">{{ post.title }}</a>
-            </li>
-        {% endif %}
+    {% assign year = post.date | date: "%Y" %}
+    {% if prev_year != year %}
+      <li class='year'>{{ year }}</li>
+      {% assign prev_year = year %}
+    {% endif %}
 
-    {% endfor %}
+    {% if page.inline == true %}
+      <li class='inlined'>
+        <span>{{ post.date | date: "%Y.%m.%d" }}</span> <span class='inlined-post'>{{ post.body }}</a></li>
+    {% else %}
+      <li><span>{{ post.date | date: "%Y.%m.%d" }}</span>
+          <span class='post-category'><a href="/{{post.category | uri_escape}}">[{{post.category}}]</a></span>
+          <a href="{{ post.url }}">{{ post.title }}</a>
+      </li>
+    {% endif %}
+
+  {% endfor %}
 </ul>
+
+<p><img src='/assets/rss-2-128.png' style='display: inline; vertical-align: middle; width: 1em; height: 1em'> <a href='/feed.xml'>Подписаться на RSS</a></p>
 
 <!-- -%- indent-width: 2; use-tabs: no; -%- -->
