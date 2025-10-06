@@ -181,7 +181,7 @@ EUPL. Статьи на Хабре: [\[1\]](https://habrahabr.ru/post/318916/), 
     Fun guaranteed. ;-)
 
 
-## Разработка юзерспейса Linux со товарищи
+## Разработка юзерспейса Linux и т.п.
 
 [heirloom.sourceforge.net](http://heirloom.sourceforge.net/)
 
@@ -240,6 +240,20 @@ EUPL. Статьи на Хабре: [\[1\]](https://habrahabr.ru/post/318916/), 
 [Agar](http://libagar.org/) is a cross-platform GUI toolkit. Agar provides a base framework and a collection of GUI widgets from which GUI applications can be built. Agar can be styled and themed using a CSS-style engine.
 
 [TekUI](http://tekui.neoscientists.org/) is a small, freestanding and portable graphical user interface (GUI) toolkit written in Lua and C.
+
+## Инструменты для отображения графического интерфейса из sh-скриптов
+
+[YAD](https://yad-guide.ingk.se/)
+
+[gxmessage](https://manpages.debian.org/testing/gxmessage/gxmessage.1.en.html)
+
+[XDialog](http://xdialog.free.fr/)
+
+Gtkdialog — позволяет формировать диалоги непосредственно на языке разметки Gtk2:
+
+* [Gtkdialog User Manual](https://xpt.sourceforge.net/techdocs/language/gtkdialog/gtkde03-GtkdialogUserManual/single/index.html)
+* [Gtkdialog Examples](https://xpt.sourceforge.net/techdocs/language/gtkdialog/gtkde02-GtkdialogExamples/single/)
+* https://blogs.czapski.id.au/category/demo-building/gtkdialog
 
 ## Трёхмерная графика
 
