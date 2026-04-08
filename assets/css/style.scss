@@ -3,6 +3,23 @@
 
 @import "{{ site.theme }}";
 
+a {
+    text-shadow: none;
+}
+
+ul li {
+    list-style-image: none;
+}
+
+ul li {
+    padding-top: .25em;
+    padding-bottom: .25em;
+}
+
+li::marker {
+    color: #b5e853;
+}
+
 header h1:before {
     display: none;
 }
